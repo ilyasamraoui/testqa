@@ -1,0 +1,17 @@
+version: 0.1
+
+validData:
+  - customerNumber: "111006002"
+    accountNumber1:
+    branch: "00111"
+    currency: "001"
+    account: "111006002"
+    startDate: "2019-01-01"
+    endDate: "2019-06-30"
+    branchCode: "00111"
+    coDNumber: "025075"
+    subscriptionNumber: "000075"
+    tdNumber: "000367"
+    fileNumber: "425731"
+    orderNumber: "   "
+    amendmentNumber: "0"

@@ -1,0 +1,16 @@
+version: 0.1
+
+validData:
+  - customerNumber: "203282"
+    accountNumber1: 
+    branch: "00001"
+    currency: "XAF"
+    account: "02020328201"
+    startDate: "2018-05-05Z"
+    branchCode: "00002"
+    coDNumber: "060658"
+    subscriptionNumber: "000001"
+    tdNumber: "000007"
+    fileNumber: "200652"
+    orderNumber: "   "
+    amendmentNumber: "0"

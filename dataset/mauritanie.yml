@@ -1,0 +1,16 @@
+version: 0.1
+
+validData:
+  - customerNumber: "00014000000005"
+    accountNumber1:
+    branch: "00001"
+    currency: "MRU"
+    account: "00000000017"
+    startDate: "2014-12-25"
+    branchCode: "08001"
+    coDNumber: "006076"
+    subscriptionNumber: "000060"
+    tdNumber: 
+    fileNumber:
+    orderNumber:
+    amendmentNumber:

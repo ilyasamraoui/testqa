@@ -1,0 +1,115 @@
+kind: features/collection
+apiVersion: 0.1
+
+collection:
+
+  - name: Tests AIFs/SMGs
+    features:
+      - description: SMGs Burkina new (Amplitude v10)
+        url: ../features/smgs-v10/bf.feature
+      - description: SMGs Burkina (Amplitude v10)
+        url: ../features/smgs-v10/burkina.feature
+      - description: SMGs Bénin (Amplitude v10)
+        url: ../features/smgs-v10/benin.feature
+      - description: SMGs Cameroun (Amplitude v10)
+        url: ../features/smgs-v10/cameroun.feature
+      - description: SMGs Côte d'Ivoire (Amplitude v10)
+        url: ../features/smgs-v10/cote-ivoire.feature
+      - description: SMGs Ghana (Amplitude v10)
+        url: ../features/smgs-v10/ghana.feature
+      - description: SMGs Madagascar (Amplitude v10)
+        url: ../features/smgs-v10/madagascar.feature
+      - description: SMGs Sénégal (Amplitude v10)
+        url: ../features/smgs-v10/senegal.feature
+      - description: SMGs Mauritanie (Amplitude v10)
+        url: ../features/smgs-v10/mauritanie.feature
+      - description: SMGs Tchad (Amplitude v10)
+        url: ../features/smgs-v10/tchad.feature
+
+  - name: Tests APIs v1
+    features:
+      - description: Accounts.accounts (List user's accounts)
+        url: ../features/apis/accounts/accounts.feature
+      - description: Additional.exchangeRates (Return exchange rates)
+        url: ../features/apis/additional/exchange-rates.feature
+      - description: Content.FAQ (Frequently asked questions)
+        url: ../features/apis/content/faq.feature
+      - description: Loans.loans (List user's loans)
+        url: ../features/apis/loans/loans.feature
+      - description: Users.onboardUser (Register user to Unibank platform)
+        url: ../features/apis/users/onboard-user.feature
+
+  - name: Account APIs (SMG)
+    features:
+      - description: Get Account Activity
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/smg/accounts/get-account-activity.feature
+      - description: Get Account Balance
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/smg/accounts/get-account-balance.feature
+      - description: Get Account Detail
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/smg/accounts/get-account-detail.feature
+      - description: Get Account List
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/smg/accounts/get-account-list.feature
+      - description: Create Transfer
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/smg/accounts/create-transfer.feature
+
+  - name: Deposit APIs (SMG)
+    features:
+      - description: Get Certificate Of Deposit Detail
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/smg/deposit/get-cod-detail.feature
+      - description: Get Certificate Of Deposit List
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/smg/deposit/get-cod-list.feature
+      - description: Get Term Deposit Detail
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/smg/deposit/get-td-detail.feature
+      - description: Get Term Deposit List
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/smg/deposit/get-td-list.feature
+
+  - name: Loan APIs (SMG)
+    features:
+      - description: Get Amortizable Loan Detail
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/smg/loans/get-amortizable-loan-detail.feature
+      - description: Get Amortizable Loan List
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/smg/loans/get-amortizable-loan-list.feature
+
+  - name: Account APIs (VIP)
+    features:
+      - description: Account
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/vip/accounts/account.feature
+      - description: Account List
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/vip/accounts/account-list.feature
+      - description: Beneficiaries
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/vip/accounts/beneficiaries.feature
+      - description: Add Beneficiary
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/vip/accounts/add-beneficiary.feature
+      - description: Check Beneficiary
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/vip/accounts/check-beneficiary.feature
+      - description: Delete Beneficiary
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/vip/accounts/delete-beneficiary.feature
+      - description: Transactions
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/vip/accounts/transactions.feature
+      - description: Create Transfer
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/vip/accounts/create-transfer.feature
+      - description: Check Transfer
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/vip/accounts/check-transfer.feature
+      - description: Set Gauge
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa-tests/master/features/unibank/api/vip/accounts/set-gauge.feature
+
+  - name: Technical APIs (Bridge)
+    features:
+      - description: Bridge Exchange Rates API
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa/master/features/sample-success.feature
+      - description: Bridge Exchange Rates API (will fail on purpose)
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa/master/features/sample-failure.feature
+
+  - name: DEVOPS
+    features:
+      - description: Reverse Proxies DEV (v10)
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa/master/features/reverse-proxies-dev.feature
+      - description: Reverse Proxies HF v10
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa/master/features/reverse-proxies-uat.feature
+      - description: Reverse Proxies HF v11
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa/master/features/reverse-proxies-uat-aif11.feature
+
+  - name: WSO2
+    features:
+      - description: WSO2 Identity Provider - OAuth2
+        url: https://sgithub.fr.world.socgen/raw/SGABS/qa/master/features/wso2/oauth2-idp.feature

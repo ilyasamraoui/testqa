@@ -1,0 +1,16 @@
+version: 0.1
+
+validCustomers:
+  - customerNumber: "010736"
+    accountNumber1: "01073601901"
+    branch: "01001"
+    currency: "XOF"
+    account: "01073600601"
+    startDate: "2010-01-01Z"
+    branchCode: "00002"
+    coDNumber: "063101"
+    subscriptionNumber: "000060"
+    tdNumber: "007269"
+    fileNumber: "001852"
+    orderNumber: "   "
+    amendmentNumber: "0"

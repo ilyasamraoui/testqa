@@ -1,0 +1,16 @@
+version: 0.1
+
+validData:
+  - customerNumber: "0002296700"
+    accountNumber1:
+    branch: "00100"
+    currency: "001"
+    account: "01000007308"
+    startDate: "2018-01-01"
+    branchCode: "00100"
+    coDNumber: "016726"
+    subscriptionNumber: "001025"
+    tdNumber: "001007"
+    fileNumber: "000003"
+    orderNumber: "   "
+    amendmentNumber: "0"

@@ -1,0 +1,17 @@
+version: 0.1
+
+validData:
+  - customerNumber: "1000046175"
+    accountNumber1:
+    branch: "90115"
+    currency: "936"
+    account: "60001657328"
+    startDate: "2019-01-01"
+    endDate: "2019-06-30"
+    branchCode: "90101"
+    coDNumber: 
+    subscriptionNumber:
+    tdNumber: "000008"
+    fileNumber: "304727"
+    orderNumber: "   "
+    amendmentNumber: "0"

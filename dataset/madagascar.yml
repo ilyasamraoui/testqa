@@ -1,0 +1,16 @@
+version: 0.1
+
+validData:
+  - customerNumber: "00014000000005"
+    accountNumber1: 
+    branch: "00014"
+    currency: "MGA"
+    account: "05001040046"
+    startDate: "2014-12-25"
+    branchCode: "00002"
+    coDNumber: "060658"
+    subscriptionNumber: "000001"
+    tdNumber: "000007"
+    fileNumber: "273128"
+    orderNumber: "   "
+    amendmentNumber: "0"

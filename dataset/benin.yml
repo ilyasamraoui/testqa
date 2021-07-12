@@ -1,0 +1,16 @@
+version: 0.1
+
+validData:
+  - customerNumber: "331135"
+    accountNumber1: 
+    branch: "08050"
+    currency: "XOF"
+    account: "33113553101"
+    startDate: "2018-05-05Z"
+    branchCode:
+    coDNumber:
+    subscriptionNumber:
+    tdNumber:
+    fileNumber:
+    orderNumber: 
+    amendmentNumber: 

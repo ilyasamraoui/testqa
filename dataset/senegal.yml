@@ -1,0 +1,16 @@
+version: 0.1
+
+validData:
+  - customerNumber: "52004761"
+    accountNumber1: 
+    branch: "01200"
+    currency: "000"
+    account: "03003920625"
+    startDate: "2018-01-01"
+    endDate: "2019-01-30"
+    branchCode: "00500"
+    coDNumber: "002371"
+    subscriptionNumber: "013604"
+    fileNumber: "001459"
+    orderNumber: "   "
+    amendmentNumber: "00"
